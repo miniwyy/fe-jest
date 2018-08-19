@@ -1,0 +1,39 @@
+.spectacle-slide {
+  background-color:transparent !important;
+}
+.code-normal {
+  background-color: rgba(0,0,0, 0.15) !important;
+  margin-bottom:20px !important;
+  border-radius: 10px;
+  padding:0 10px;
+}
+
+.code-normal > pre {
+  background-color:transparent !important;
+}
+
+.spectacle-content .heading,
+.spectacle-content .heading > h1,
+.code-slide-children {
+  z-index:9999 !important;
+}
+
+.spectacle-content .spectacle-content > div {
+  z-index:9999 !important;
+  white-space: pre !important;
+}
+.spectacle-content .spectacle-content > img {
+  top:40% !important;
+  -webkit-transform: translate(-50%,-40%);
+  -ms-transform: translate(-50%,-40%);
+  transform: translate(-50%,-40%);
+}
+.webpack-message {
+  position:absolute;
+  bottom:-3rem;
+  right:-10rem;
+  width:90%;
+  -webkit-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
