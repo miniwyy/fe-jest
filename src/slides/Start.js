@@ -9,7 +9,6 @@ export default class extends Component {
         <Heading fit>Test Web Applications</Heading>
         <Text>with</Text>
         <Heading textSize="20rem">Jest</Heading>
-        <Text>wuyongyu</Text>
       </Slide>
     );
   }
